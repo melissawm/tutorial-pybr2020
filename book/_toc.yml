@@ -1,0 +1,14 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: notebooks/00-Tutorial_Python_Brasil_2020.ipynb
+- file: notebooks/01-Tutorial_NumPy.ipynb
+- file: notebooks/02-Tutorial_Matplotlib.ipynb
+- file: notebooks/03-Exemplo_Masked_Arrays.ipynb
+- file: notebooks/04-Exemplo_SVD.ipynb
+- file: notebooks/05-Exemplo_Queimadas.ipynb
+- file: notebooks/06-Tutorial_SciPy.ipynb
+- file: notebooks/07-Exemplo_Regressao.ipynb
