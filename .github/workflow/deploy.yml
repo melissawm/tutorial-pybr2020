@@ -21,11 +21,11 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build the JupyterBook site
         run: |
-          jupyter-book build .
+          jupyter-book build book
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_build/html
+          path: ./book/_build/html
 
   deploy:
     needs: build
